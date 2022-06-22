@@ -1,0 +1,32 @@
+//- (c)2014, 2021 by Gerald Wodni
+
+extends layout
+
+mixin video-box()
+    div&attributes(attributes).video-box
+        div.background
+        div.inner
+            block
+
+block content
+    +video-box().presentation
+
+    if showAvatar
+        +video-box().avatar
+
+    div.euroforth
+        img.logo(src="/images/logo-big.png", alt="EuroForth Logo")
+        span.euroforth.number
+            | 37
+            sup th
+        span.euroforth.name
+            | EuroForth
+        span.euroforth.year
+            =moment().format("YYYY-MM-DD")
+
+    if !hideBottomText
+        div.bottom-text.title
+            = presentation
+        div.bottom-text.author
+            = author
+

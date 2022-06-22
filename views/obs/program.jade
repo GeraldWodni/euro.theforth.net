@@ -1,0 +1,45 @@
+//- (c)2014, 2021 by Gerald Wodni
+
+extends layout
+
+mixin video-box()
+    div&attributes(attributes).video-box
+        div.background
+        div.inner
+            block
+
+block content
+    +video-box().presentation.schedule
+        each session in sessions || []
+            h3
+                code
+                    = session.shortTime
+                    i UTC
+                = session.name
+            ul
+                each presentation in session.presentations
+                    - console.log( presentation.id, activePresentationId );
+                    li( class = presentation.id == activePresentationId ? "active" : null )
+                          .presentation-guest
+                              = presentation.guestName
+                          .presentation-title
+                              = presentation.title
+
+    if showAvatar
+        +video-box().avatar
+
+    div.euroforth
+        img.logo(src="/images/logo-big.png", alt="EuroForth Logo")
+        span.euroforth.number
+            | 37
+            sup th
+        span.euroforth.name
+            | EuroForth
+        span.euroforth.year
+            =moment().format("YYYY-MM-DD")
+
+    div.bottom-text.title
+        | Program
+    //div.bottom-text.author
+    //    | 4ther
+

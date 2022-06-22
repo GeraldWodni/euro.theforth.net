@@ -1,0 +1,32 @@
+<h2>Presentation</h2>
+<ol>
+    <li><b>1) CloudCalypse — building a social network on top of net2o, and importing your existing data and 2) New Gforth Headers in Practice</b> () - Bernd Paysan<br>1) net2o status report: how to parse and import data from existing (or already dead) social network clouds into net2o.
+    </li>
+    <li><b>Galois Fields and Forth</b> (30 min) - Bill Stoddart<br>Galois fields are rich finite algebraic structures with applications in cryptography, error correcting codes, experimental design, constraint programming and pattern recognition. We describe some of these fields and the structures related to them known as Latin Squares, which are used in many applications.
+
+    </li>
+    <li><b>UI5</b> (30 min) - Gerald Wodni<br>What started years ago with the Flink-demo(Forth-Link) comes to its epic conclusion. UI5 is a robust HTML5-based user interface that not just enables your deeply embedded system to be controlled via a nice web interface, but also makes you want to port your legacy desktop applications one last time.
+    </li>
+    <li><b>colorForth in Black &amp; White</b> (20 - 30 min +) - Howerd Oakford<br>An attempt to separate colorForth from the concept of colour.
+        An argument against over-simplicity.
+
+    </li>
+    <li><b>uCore progress: "MUTEX mechanism in hardware" and "Getting rid of the 2 phase execution cycle"</b> (45 min) - Klaus Schleisiek<br>Thanks to the PAUSE signal, mutual exclusion processing can be completely realised in hardware. This gets rid of one of the most error prone software tasks in complex control systems.
+        uCore_1.xx did have a 2 phase instruction execution cycle, because the internal blockRAM in FPGAs do have an internal address register that needs to be set first before data can be accessed. I got rid of this unfortunate complexity by splitting up a blockRAM memory access into two subsequent instructions. Along the way, I invented a generic, non-interruptible "instruction chaining mechanism", which also can be used for indivisible read-modify-write instructions like +!.
+    </li>
+    <li><b>The new Gforth Header</b> (30 min) - M. Anton Ertl<br>The new Gforth header is designed to directly implement the requirements of Forth-94 and Forth-2012. Every header is an object with a fixed set of fields (code, parameter, count, name, link) and methods (execute, compile,, (to), defer@, does, name&gt;interpret, name&gt;compile, name&gt;string, name&gt;link). The implementation of each method can be changed per-word (prototype-based object-oriented programming). We demonstrate how to use these features to implement optimization of constants, FVALUE, DEFER, IMMEDIATE, TO and other dual-semantics words, and SYNONYM.
+
+    </li>
+    <li><b>1) Internationalisation - A New Approach in Forth      2) Forth returns to the Automotive Industry</b> (Approx 30 mins each) - Nick Nelson<br>1)  The unique capabilities of Forth are harnessed in a technique that greatly improves the efficiency of software internationalisation.
+        2)  A stretch bending machine for producing automotive components is described, on which the automation system is programmed in Forth.
+
+        Note: Paper 1) must be scheduled ahead of paper 2)
+    </li>
+    <li><b>Experience with dual words and recognisers</b> (30 min) - Stephen Pelc<br>The VFX Forthv5.1 kernel incorporates dual-behaviour words and recognisers. This talk discusses our experience over the last year with these changes. Dual-behaviour words are a standards-compliant solution to needing words that have separate interpretation and compilation behaviour. Previous papers called these words NDCS words (non-default compilation semantics). Recognisers are a fashionable solution to providing a user-extensible text interpreter. Our experience converting two OOP packages to use recognisers is discussed.
+    </li>
+    <li><b>1) Forth Projectional Editing and Simple-Tester and 2)Testing Tool for Embedded Forth Systems</b> (30 min, 30 min) - Ulrich Hoffmann<br>1) Projectional editing is an alternative way to handle programs and data that is centered around internal program/data structures and so called projections create editable representations. In the Forth context memory seems to be an appropriate internal data structure. Different editors interpret memory content and allow the user to modify it accordingly. A hex and a stack editor are described and other editors are proposed.  
+        2) simple-tester is a very lighweight testing tool designed to assist the development of a Forth system on embedded target. simple-tester is inspired by the ANS Forth test harness. One innovation is the use of hashing rather than memory to compare actual and expected results.
+    </li>
+    <li><b>Holon Programming - A Summing Up</b> (45 min) - Wolf Wejgaard<br>
+    </li>
+</ol>
