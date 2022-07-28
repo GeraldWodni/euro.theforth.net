@@ -20,7 +20,7 @@ module.exports = {
     /* registration email text body */
     emailTemplate: function _emailTemplate( { prices, values, price, website } ) {
         return `Hotel: ${values.hotel}\nExtra days: ${values.extraDays}\nPreis (total): ${price}`
-            + ( price > 0 ? `\nPlease transfer the full amount in Euro to:\n${prices.operatorBankAccount}` : '' )
+            + ( price > 0 ? `\nPlease transfer the full amount in Euro to:\n${process.env.OPERATOR_BANK_ACCOUNT}` : '' )
             + ( prices.chatRegistration ? `\n\n${process.env.CHAT_REGISTRATION}` : '' )
             + `\n\nTo attend the conference electronically, and to edit your presentation details, please use the following link: https://${website}/${prices.myName}/${values.editHash}`
             + `\n\nName: ${values.name}`
@@ -32,22 +32,36 @@ module.exports = {
             + `\n\nRemark: ${values.remark}`;
     },
     meeting: {
-        openRegistration: "2022-08-26",
+        openRegistration: "2022-07-28",
         start: "2022-09-02"
     },
     hotels: [
         {
-            header: "Online Only - EuroForth conference only (4.-6. September)",
-            description: "Please read the COVID 19 section before using this option.",
+            header: "Online Only - EuroForth conference only (16.-18. September)",
+            description: "Full access",
             modes: [
                 { name: "Single person:",                     value: "EuroForth+Online",    complete: 0.00 },
             ]
         },
         {
-            header: "Online Only - Forth standard meeting &  EuroForth conference (1.-6. September)",
-            description: "Please read the COVID 19 section before using this option.",
+            header: "Online Supporter - EuroForth conference only (16.-18. September)",
+            description: "Full access + a cosy feeling you support the hosting hardware, forth-standard.org, theforth.net and more",
+            modes: [
+                { name: "Single person:",                     value: "Supporter+EuroForth+Online",    complete: 19 },
+            ]
+        },
+        {
+            header: "Online Only - Forth standard meeting &  EuroForth conference (14.-18. September)",
+            description: "Full access",
             modes: [
                 { name: "Single person:",                     value: "STD+EuroForth+Online",    complete: 0.00 },
+            ]
+        },
+        {
+            header: "Online Supporter - Forth standard meeting &  EuroForth conference (14.-18. September)",
+            description: "Full access + a cosy feeling you support the hosting hardware, forth-standard.org, theforth.net and more",
+            modes: [
+                { name: "Single person:",                     value: "Supporter+STD+EuroForth+Online",    complete: 26 },
             ]
         }
     ]

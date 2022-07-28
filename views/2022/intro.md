@@ -1,76 +1,111 @@
 # EuroForth 2022
 REGISTERBUTTON
 
-__Please note the [COVID 19 / Coronavirus information](#covid-19--coronavirus) below__
+__Please note:  
+After talking to participants we decided to make this the last virtual EuroForth conference.  
+Next year's EuroForth will be  face to face with eating, drinking and laughing again.__
 
-## Roma (or Online), 16.-18. September 2022
-The 38th EuroForth conference takes place in Rome/Italy.\
-If travel is again an issue due to COVID 19, the conference will be online like the past 2 years on the same date.
+## Online, 16.-18. September 2022
+The 38th EuroForth conference takes place in the Internet.
 
 Please see the official [call for papers](http://www.euroforth.org/ef22/cfp.html) for instructions on how to submit papers.
 
-![Colosseum / CC BY-SA 2.0 Bert Kaufmann / Edited by Gerald Wodni](/images/2022/colosseum-or-online.jpg)
+![Colosseum / CC BY-SA 2.0 Bert Kaufmann / Edited by Gerald Wodni](/images/2022/colosseum-online.jpg)
 
 Colosseum / CC BY-SA 2.0 Bert Kaufmann / Edited by Gerald Wodni
 
 The conference will be preceded by the Forth standards meeting which starts on September, 14th.
 
-Both, meeting and conference will be hosted in the [SHG Hotel Portamaggiore](http://www.hotelportamaggiore.it/).
-
-The hotel is within walking distance to Rome's main train station "Roma Termini"
-
-![SHG Hotel Portamaggiore Roma](/images/2021/hotel.jpg)
-
-[Image: Hotel Portamaggiore](https://www.hotelportamaggiore.it/de/home_villa-2-2/)
+Both, meeting and conference will be hosted online.
 
 ## Programme
 
+### Hardware requirements
+The following hardware is required:
+- A headset or another setup which ensures no echoing is received from your end.
+
+You cannot attend the conference with a built-in microphone. If you cannot get a headset and cause interference, you will be muted and will be limited to replying by text.
+
+The following hardware is strongly recommended:
+- A webcam which points at your face
+- A lamp which illuminates your face.
+
+If there is a wall behind your monitor consider bouncing light of it with a lamp, so we can see your lovely face. Alternatively shine light onto you from an angle.
+
+### Software requirements
+
+__TL;DR: get Firefox, sign up at the link you will be getting via registration email (opens 19th August 2021).__
+
+The following software is required:
+- Fairly recent Firefox browser (please update when possible)
+
+The following software is strongly recommended as a fallback option:
+- Fairly recent Chromium based browser (please update when possible)
+- Zoom Client
+
+Like last year we will be using the web-based chat-application [Mattermost](https://mattermost.com/) at https://chat.forth-standard.org - no installation required, hosted by Forth Committee Members to help privacy concerns.
+You will receive a signup link in via email after you registered on this site.
+All communication is within this chat-application, we ask you to sign in within the `Get together` timeframe.
+
+For the video conferences themselfes we will be using [BigBlueButton](https://bigbluebutton.org/) hosted by Gerald Wodni, as [senfcall.de](https://senfcall.de/) was dropping some connections from the US.
+__Links to the conference rooms will be provided in chat-application Mattermost__.
+
+If this should fail we will fall back to [Zoom](https://zoom.us/). Consider installing their client beforehand.
+
+Please visit our testing call which will be announced in [chat](https://chat.forth-standard.org/), especially if you had issues last year.
+
 ### Forth standard meeting
-#### Wednesday, 14th September 13:00 - Friday, 16th September 12:00
+Times are converted to your local timezone indicated by a blue background, if you have javascript enabled (no, this cannot be done server-side). \
+Otherwise `UTC(+0)` will be displayed and you have to calculate the offset yourself.
+
+__Note: Times are subject to change, once we see the global distribution of participants we might start a bit later.__
+#### Wednesday, 14th September UTC(+0)
+- 13:00 Get together - Setup your gear and smalltalk
+- 13:20 Call to order - get ready (please be online by now)
+- 13:30 Session 3
+- 15:30 Bio Break
+- 15:45 Session 4
+- 17:30 End of main session
+
+#### Thursday, 15th September UTC(+0)
+- 13:00 Get together - Setup your gear and smalltalk
+- 13:20 Call to order - get ready (please be online by now)
+- 13:30 Session 5
+- 15:30 Bio Break
+- 15:45 Session 6
+- 17:30 End of main session
 
 ### EuroForth conference
-#### Friday, 16th September 13:00 - Sunday, 18th September 14:00
+__Note: Times are subject to change, once we see the global distribution of participants we might start a bit later.__
+#### Friday, 16th September UTC(+0)
+- 13:00 Get together - Setup your gear and smalltalk
+- 13:50 Call to order - get ready (please be online by now)
+- 14:00 Welcome and Introduction
+- 14:30 Presentation Session 1 **on air**
+- 15:30 Bio Break
+- 15:50 Presentation Session 2 **on air**
+- 17:30 End of official part, Open Chat
 
-### Saturday: Rome excursion
-Guided tour for the Arena and underground levels of the Colosseum followed by roaming the Forum Romanum.
-Those who are still fit can continue to extensivly roam Rome, those who are not can retreat into one of the wonderful cafes.
-Saturday evening we will all meet up and have our conference dinner. Some impressions:
+#### Saturday, 17th September UTC(+0)
+- 13:00 Get together - Setup your gear and smalltalk
+- 13:50 Call to order - get ready
+- 14:00 Presentation Session 3 **on air**
+- 15:30 Bio Break
+- 15:45 Get ready for Virtual Excursion
+- 15:50 Virtual Excursion: introduce us to your home-town in 1minute with 3-5 pictures **on air**
+- 16:30 Presentation Session 4 **on air**
+- 17:30 Cooking/Ordering formal Dinner
+- 18:00 Formal dinner with open chat
 
-![Colosseum Arena](/images/2021/colosseumArena.jpg)
-
-[Image: Jebulon](https://commons.wikimedia.org/wiki/File:Colosseum_ovale_sous-sol_Rome_Italy.jpg)
-
-![Forum Romanum](/images/2021/forumRomanum.jpg)
-
-[Image:  Bert Kaufmann CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Foro_Romano_Forum_Romanum_Roman_Forum_(8043630550).jpg)
-
-
-## Bring your partners!
-
-As usual this years conference will also feature a separate track for a Forther's partner.
-Claudia has been to Rome many times and will be your guide. Venues including but not limited to:
-
-#### Vatican
-![Vatican](/images/2021/vatican.jpg)
-
-[Image: DAVID ILIFF. License: CC BY-SA 3.0](https://de.wikipedia.org/wiki/Datei:St_Peter%27s_Square,_Vatican_City_-_April_2007.jpg)
-
-
-### Trajan's Maket
-![Trajan's Market](/images/2021/trajansMarket.jpg)
-
-[Image: Jebulon](https://commons.wikimedia.org/wiki/File:Trajan%27s_Market,_Rome,_Italy.jpg)
-
-### Pantheon
-![Pantheon](/images/2021/pantheon.jpg)
-
-[Image:Richjheath](https://commons.wikimedia.org/wiki/File:Internal_Pantheon_Light.JPG)
+#### Sunday, 18th September UTC(+0)
+- 13:00 Get together - Setup your gear and smalltalk
+- 13:50 Call to order - get ready
+- 14:00 Presentation Session 5: Impromptu Talks? **on air**
+- 15:45 Bio Break
+- 16:00 Presentation Session 6: Impromptu Talks! **on air**
+- 17:30 End of EuroForth 2022
 
 
-# COVID 19 / Coronavirus
-
-As with so many events this year EuroForth also has to take the pandemic into consideration. \
-Therefor the Registration process will be delayed and announced in July.
 
 <!--
 ## Registration process
