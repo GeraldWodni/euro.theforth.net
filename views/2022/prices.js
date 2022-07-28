@@ -20,7 +20,7 @@ module.exports = {
     /* registration email text body */
     emailTemplate: function _emailTemplate( { prices, values, price, website } ) {
         return `Hotel: ${values.hotel}\nExtra days: ${values.extraDays}\nPreis (total): ${price}`
-            + ( price > 0 ? `\nPlease transfer the full amount in Euro tox:\n${process.env.OPERATOR_BANK_ACCOUNT.replace(/\\n/g, '\n')}` : '' )
+            + ( price > 0 ? `\nPlease transfer the full amount in Euro to:\n${process.env.OPERATOR_BANK_ACCOUNT.replace(/\\n/g, '\n')}` : '' )
             + ( prices.chatRegistration ? `\n\n${process.env.CHAT_REGISTRATION}` : '' )
             + `\n\nTo attend the conference electronically, and to edit your presentation details, please use the following link: https://${website}/${prices.myName}/${values.editHash}`
             + `\n\nName: ${values.name}`
