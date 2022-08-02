@@ -65,5 +65,15 @@ module.exports = {
                 { name: "Single person:",                     value: "Supporter+STD+EuroForth+Online",    complete: 26 },
             ]
         }
-    ]
+    ],
+    bbbRooms: {
+        conference: { name: "Conference",   type: "conference", rights: "attendee", layout: "PRESENTATION_FOCUS"},
+        chair:      { name: "Chair",        type: "conference", rights: "moderator",layout: "PRESENTATION_FOCUS", roomId: "conference" },
+        //recognizers:{ name: "WS: Recognizers", type: "conference",  rights: "moderator", layout: "PRESENTATION_FOCUS" },
+        //xts:        { name: "WS: XT",          type: "conference",  rights: "moderator", layout: "PRESENTATION_FOCUS" },
+        salon:      { name: "Salon",        type: "leisure",    rights: "moderator" },
+        bar:        { name: "Bar",          type: "leisure",    rights: "moderator" },
+        beach:      { name: "Beach",        type: "leisure",    rights: "moderator" },
+        club:       { name: "Club",         type: "leisure",    rights: "moderator" },
+    },
 }
