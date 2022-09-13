@@ -62,17 +62,17 @@ __Note: Times are subject to change, as requested by the US-participants we are 
 #### Wednesday, 14th September UTC(+0)
 - 14:30 Get together - Setup your gear and smalltalk
 - 14:50 Call to order - get ready (please be online by now)
-- 15:00 Session 3
+- 15:00 Session 1
 - 17:00 Bio Break
-- 17:15 Session 4
+- 17:15 Session 2
 - 19:00 End of main session
 
 #### Thursday, 15th September UTC(+0)
 - 14:30 Get together - Setup your gear and smalltalk
 - 14:50 Call to order - get ready (please be online by now)
-- 15:00 Session 5
+- 15:00 Session 3
 - 17:00 Bio Break
-- 17:15 Session 6
+- 17:15 Session 4
 - 19:00 End of main session
 
 ### EuroForth conference
@@ -92,7 +92,7 @@ __Note: Times are subject to change, once we see the global distribution of part
 - 14:00 Presentation Session 3 **on air**
 - 15:30 Bio Break
 - 15:45 Get ready for Virtual Excursion
-- 15:50 Virtual Excursion: introduce us to your home-town in 1minute with 3-5 pictures **on air**
+- 15:50 Virtual Excursion: topic TBD **on air**
 - 16:30 Presentation Session 4 **on air**
 - 17:30 Cooking/Ordering formal Dinner
 - 18:00 Formal dinner with open chat
