@@ -19,6 +19,7 @@ The conference will be preceded by the Forth standards meeting which starts on S
 Both, meeting and conference will be hosted online.
 
 ## Programme
+PROGRAMME
 
 ### Hardware requirements
 The following hardware is required:
@@ -55,57 +56,10 @@ If this should fail we will fall back to [Zoom](https://zoom.us/). Consider inst
 Please visit our testing call which will be announced in [chat](https://chat.forth-standard.org/), especially if you had issues last year.
 
 ### Forth standard meeting
-Times are converted to your local timezone indicated by a blue background, if you have javascript enabled (no, this cannot be done server-side). \
-Otherwise `UTC(+0)` will be displayed and you have to calculate the offset yourself.
-
-__Note: Times are subject to change, as requested by the US-participants we are starting 1.5h later than last year.__
-#### Wednesday, 14th September UTC(+0)
-- 14:30 Get together - Setup your gear and smalltalk
-- 14:50 Call to order - get ready (please be online by now)
-- 15:00 Session 3
-- 17:00 Bio Break
-- 17:15 Session 4
-- 19:00 End of main session
-
-#### Thursday, 15th September UTC(+0)
-- 14:30 Get together - Setup your gear and smalltalk
-- 14:50 Call to order - get ready (please be online by now)
-- 15:00 Session 5
-- 17:00 Bio Break
-- 17:15 Session 6
-- 19:00 End of main session
+__[Click here for Programme](/program)__
 
 ### EuroForth conference
-__Note: Times are subject to change, once we see the global distribution of participants we might start a bit later. Opposed to the standard meeting we have some participants in the far east.__
-#### Friday, 16th September UTC(+0)
-- 13:00 Get together - Setup your gear and smalltalk
-- 13:50 Call to order - get ready (please be online by now)
-- 14:00 Welcome and Introduction
-- 14:30 Presentation Session 1 **on air**
-- 15:30 Bio Break
-- 15:50 Presentation Session 2 **on air**
-- 17:30 End of official part, Open Chat
-
-#### Saturday, 17th September UTC(+0)
-- 13:00 Get together - Setup your gear and smalltalk
-- 13:50 Call to order - get ready
-- 14:00 Presentation Session 3 **on air**
-- 15:30 Bio Break
-- 15:45 Get ready for Virtual Excursion
-- 15:50 Virtual Excursion: introduce us to your home-town in 1minute with 3-5 pictures **on air**
-- 16:30 Presentation Session 4 **on air**
-- 17:30 Cooking/Ordering formal Dinner
-- 18:00 Formal dinner with open chat
-
-#### Sunday, 18th September UTC(+0)
-- 13:00 Get together - Setup your gear and smalltalk
-- 13:50 Call to order - get ready
-- 14:00 Presentation Session 5: Impromptu Talks? **on air**
-- 15:45 Bio Break
-- 16:00 Presentation Session 6: Impromptu Talks! **on air**
-- 17:30 End of EuroForth 2022
-
-
+__[Click here for Programme](/program#euroforth-conference)__
 
 <!--
 ## Registration process
