@@ -33,7 +33,7 @@ module.exports = {
     },
     meeting: {
         openRegistration: "2022-07-28",
-        start: "2022-09-16",
+        start: "2022-09-19",
         online: true
     },
     hotels: [
