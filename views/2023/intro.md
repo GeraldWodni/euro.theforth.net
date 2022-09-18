@@ -1,13 +1,10 @@
-# EuroForth 2021
+# EuroForth 2023
 REGISTERBUTTON
 
-__Please note the [COVID 19 / Coronavirus information](#covid-19--coronavirus) below__
+## Roma, 15.-17. September 2023
+The 39th EuroForth conference takes place in Rome/Italy.
 
-## Roma (or Online), 10.-12. September 2021
-The 37th EuroForth conference takes place in Rome/Italy.\
-If travel is still an issue due to COVID 19, the conference will be online like last year on the same date.
-
-Please see the official [call for papers](http://www.euroforth.org/ef21/cfp.html) for instructions on how to submit papers.
+Please see the official [call for papers](http://www.euroforth.org/ef23/cfp.html) for instructions on how to submit papers.
 
 ![Colosseum / CC BY-SA 2.0 Bert Kaufmann](/images/2021/colosseum.jpg)
 
@@ -15,6 +12,8 @@ Colosseum / CC BY-SA 2.0 Bert Kaufmann
 
 The conference will be preceded by the Forth standards meeting which starts on September, 2nd.
 
+The __hotel will be announced__.
+<!--
 Both, meeting and conference will be hosted in the [SHG Hotel Portamaggiore](http://www.hotelportamaggiore.it/).
 
 The hotel is within walking distance to Rome's main train station "Roma Termini"
@@ -22,14 +21,15 @@ The hotel is within walking distance to Rome's main train station "Roma Termini"
 ![SHG Hotel Portamaggiore Roma](/images/2021/hotel.jpg)
 
 [Image: Hotel Portamaggiore](https://www.hotelportamaggiore.it/de/home_villa-2-2/)
+-->
 
 ## Programme
 
 ### Forth standard meeting
-#### Wednesday, 8th September 13:00 - Friday, 10th September 12:00
+#### Wednesday, 13th September 13:00 - Friday, 15th September 12:00
 
 ### EuroForth conference
-#### Friday, 10th September 13:00 - Sunday, 12th September 14:00
+#### Friday, 15th September 13:00 - Sunday, 17th September 14:00
 
 ### Saturday: Rome excursion
 Guided tour for the Arena and underground levels of the Colosseum followed by roaming the Forum Romanum.
