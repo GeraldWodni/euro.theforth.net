@@ -2,7 +2,7 @@
 
 module.exports = {
     conference: "EuroForth",
-    year: 2023,
+    year: "2023",
     registerButton: "Register",
     myName: "myEuroForth",
     operatorEmail: "gerald.wodni@gmail.com",
@@ -21,7 +21,7 @@ module.exports = {
         return `Hotel: ${values.hotel}\nExtra days: ${values.extraDays}\nPreis (total): ${price}`
             + ( price > 0 ? `\nPlease transfer the full amount in Euro to:\n${process.env.OPERATOR_BANK_ACCOUNT.replace(/\\n/g, '\n')}` : '' )
             + ( prices.chatRegistration ? `\n\n${process.env.CHAT_REGISTRATION}` : '' )
-            //- + `\n\nTo attend the conference electronically, and to edit your presentation details, please use the following link: https://${website}/${prices.myName}/${values.editHash}`
+            + `\n\nTo edit your presentation details, please use the following link: https://${website}/${prices.myName}/${values.editHash}`
             + `\n\nName: ${values.name}`
             + `\nAddress: ${values.address}`
             + `\nTelephone: ${values.telephone}`
