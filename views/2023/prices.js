@@ -46,7 +46,7 @@ module.exports = {
             ]
         },
         {
-            header: "EuroForth conference only (15.-17. September) with VAT",
+            header: "EuroForth conference only (15.-17. September)",
             description: "Hotel with Breakfest, Meeting including Lunch",
             modes: [
                 { name: "Single room:",                     value: "EuroForth+Single+VAT",    complete: 385.00 },
