@@ -41,16 +41,27 @@ module.exports = {
             header: "Forth standard meeting &  EuroForth conference (13.-17. September)",
             description: "Hotel with Breakfest, Meeting including Lunch",
             modes: [
-                { name: "Single room:",                     value: "Std+EuroForth+Single",    complete: 653.40 },
-                { name: "Double room:",                     value: "Std+EuroForth+Double",    complete: 763.40 },
+                { name: "Single room:",                     value: "Std+EuroForth+SingleRoom",    complete: 653.40 },
+                { name: "Double room:",                     value: "Std+EuroForth+DoubleRoom",    complete: 763.40 },
+            ],
+            extraDays: [
+                { name: "12. Sep", value: "STD-1", single: 65, "double": 90 },
+                { name: "18. Sep", value: "EF+1", single: 65, "double": 90 },
+                { name: "19. Sep", value: "EF+2", single: 65, "double": 90 },
             ]
         },
         {
             header: "EuroForth conference only (15.-17. September)",
             description: "Hotel with Breakfest, Meeting including Lunch",
             modes: [
-                { name: "Single room:",                     value: "EuroForth+Single+VAT",    complete: 385.00 },
-                { name: "Double room:",                     value: "EuroForth+Double+VAT",    complete: 440.00 },
+                { name: "Single room:",                     value: "EuroForth+SingleRoom",    complete: 385.00 },
+                { name: "Double room:",                     value: "EuroForth+DoubleRoom",    complete: 440.00 },
+            ],
+            extraDays: [
+                { name: "13. Sep", value: "EF-1", single: 65, "double": 90 },
+                { name: "14. Sep", value: "EF+0", single: 65, "double": 90 },
+                { name: "18. Sep", value: "EF+1", single: 65, "double": 90 },
+                { name: "19. Sep", value: "EF+2", single: 65, "double": 90 },
             ]
         },
     ]
