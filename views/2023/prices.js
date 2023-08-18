@@ -43,6 +43,7 @@ module.exports = {
             modes: [
                 { name: "Single room:",                     value: "Std+EuroForth+SingleRoom",    complete: 653.40 },
                 { name: "Double room:",                     value: "Std+EuroForth+DoubleRoom",    complete: 763.40 },
+                { name: "No room (external):",              value: "Std+EuroForth+NoRoom",        complete: 367.40 },
             ],
             extraDays: [
                 { name: "12. Sep", value: "STD-1", single: 65, "double": 90 },
@@ -56,6 +57,7 @@ module.exports = {
             modes: [
                 { name: "Single room:",                     value: "EuroForth+SingleRoom",    complete: 385.00 },
                 { name: "Double room:",                     value: "EuroForth+DoubleRoom",    complete: 440.00 },
+                { name: "No room (external):",              value: "EuroForth+NoRoom",        complete: 242.00 },
             ],
             extraDays: [
                 { name: "13. Sep", value: "EF-1", single: 65, "double": 90 },
