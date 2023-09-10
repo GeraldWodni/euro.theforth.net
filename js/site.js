@@ -76,8 +76,10 @@ $(function(){
             if( !/[0-9]{2}:[0-9]{2}/.test( time ) )
                 return;
 
-            li.firstChild.textContent =  li.firstChild.textContent.substring(5);
-            li.insertAdjacentHTML( 'afterbegin', `<span class="localtime" title="converted, original UTC: ${time}">${offsetTime(time)}</span>` );
+            const target = li.firstChild.nodeName == "#text" ? li : li.firstChild;
+
+            target.innerHTML =  target.innerHTML.substring(5);
+            target.insertAdjacentHTML( 'afterbegin', `<span class="localtime" title="converted, original UTC: ${time}">${offsetTime(time)}</span>` );
         })
     });
 });

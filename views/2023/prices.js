@@ -34,7 +34,7 @@ module.exports = {
         openRegistration: "2023-06-15",
         enablePresentation: true,
         enablePartner: true,
-        start: "2023-09-15",
+        start: "2023-09-10",
     },
     hotels: [
         {
