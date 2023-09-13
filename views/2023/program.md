@@ -11,7 +11,7 @@ Otherwise `UTC(+0)` will be displayed and you have to calculate the offset yours
 - 10:00 Get together - Setup your gear and smalltalk  
 - 10:15 Call to order - get ready  
 - 10:30 Session 1  
-- 12:30 Bio Break  
+- 12:30 Coffee Break  
 - 13:00 Session 2  
 - 15:00 Bio Break  
 - 15:15 Session 3  
@@ -22,21 +22,23 @@ Otherwise `UTC(+0)` will be displayed and you have to calculate the offset yours
 - 07:00 Get together - Setup your gear and smalltalk  
 - 07:15 Call to order - get ready  
 - 07:30 Session 4  
-- 09:30 Lunch Break  
-- 10:30 Session 5  
-- 12:30 Bio Break  
-- 13:00 Session 6  
-- 15:00 Bio Break  
-- 15:15 Session 7  
-- 17:00 End of main sessions  
+- 09:00 Coffee Break
+- 09:15 Session 5  
+- 10:30 Lunch Break  
+- 11:30 Session 6  
+- 13:30 Coffee Break  
+- 14:00 Session 7  
+- 16:00 Bio Break  
+- 16:15 Session 8  
+- 18:00 End of main sessions  
 - Workshops
 
 #### Friday, 15th September UTC(+0)
 - 07:00 Get together - Setup your gear and smalltalk  
 - 07:15 Call to order - get ready
-- 07:30 Session 8  
-- 09:15 Bio Break  
-- 09:30 Session 9  
+- 07:30 Session 9  
+- 09:15 Coffee Break  
+- 09:30 Session 10  
 - 11:00 End of Standards Meeting
 
 
