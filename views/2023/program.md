@@ -60,7 +60,7 @@ SESSIONS(2023-09-16) Lunch
 
 #### Sunday, 17th September UTC(+0)
 SESSIONS(2023-09-17) Official end of EuroForth
-- 10:00 Lunch
+- 10:30 Lunch
 - 11:30 Beginning of Forth Day  
   As quite a bunch of us are staying for extra nights, we will venture together into Rome to see even more
 
