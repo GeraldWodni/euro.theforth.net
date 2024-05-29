@@ -6,7 +6,7 @@ module.exports = {
     currency: "£",
     registerButton: "Register",
     myName: "myEuroForth",
-    operatorEmail: "gerald.wodni@gmail.com",
+    operatorEmail: "jen@micross.co.uk",
     operatorBankAccount: "HINT: provided via environment variable",
 
     /* message to show after successful registration */
