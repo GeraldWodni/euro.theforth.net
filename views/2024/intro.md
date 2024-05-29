@@ -48,3 +48,6 @@ Will be organized and announced on site, partners welcome!
 
 ![Tyne Bridges](/images/2024/tynebridges.jpg)
 
+### Bank Transfer
+__Important:__ The organisers are asking to please wire the amount in full and pay all fees on the senders end. If you can please select GBP as the designated currency. If not all of the money arrives please be ready to pay the remainder in cash on site.
+
