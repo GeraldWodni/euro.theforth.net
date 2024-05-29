@@ -10,7 +10,8 @@ mixin radio-field(name, label, value, price, checked)
                     input(type='radio',name=name,value=value,data-hr=hr,data-price=price,checked=checked)
                 else
                     input(type='radio',name=name,value=value,data-hr=hr,data-price=price)
-                |  €
+                |  
+                = currency
                 = label
                 //= formatNumber( label, 6 )
 
@@ -37,7 +38,7 @@ mixin extraDays( extraDays )
             div.col-xs-4.col-md-3.col-lg-2
                 div.checkbox
                     label.price
-                        input(type='checkbox',name="extraDays",value=extraDay.value,data-single=extraDay.single,data-double=extraDay.double,checked= (values.extraDays || []).indexOf(extraDay.value) >= 0 )
+                        input(type='checkbox',name="extraDays",value=extraDay.value,data-single=extraDay.single,data-double=extraDay.double,data-currency=currency,checked= (values.extraDays || []).indexOf(extraDay.value) >= 0 )
                         = extraDay.name
                         span.priceText
 
@@ -50,7 +51,7 @@ block content
 
             if showForm
                 h3
-                    = __("Registration, Price: €")
+                    = __("Registration, Price:") + " " + currency
                     span#price
                         = (meeting.complete + meeting.earlyDiscount).toFixed(2).replace(/\./g, ',')
 
@@ -135,9 +136,9 @@ block content
                 hr
 
                 button.btn.btn-primary#submit(type="submit")
-                    //- | Binding registration (€
                     = __("Registration")
-                    |  (€
+                    |  (
+                    = currency
                     span= __("see above")
                     | )
 
