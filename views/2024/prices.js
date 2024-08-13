@@ -47,8 +47,8 @@ module.exports = {
             ],
             extraDays: [
                 { name: "24. Sep", value: "STD-1", single: 79, "double": 89 },
-                { name: "30. Sep", value: "EF+1",  single: 79, "double": 89 },
-                { name: "01. Oct", value: "EF+2",  single: 79, "double": 89 },
+                { name: "29. Sep", value: "EF+1",  single: 79, "double": 89 },
+                { name: "30. Sep", value: "EF+2",  single: 79, "double": 89 },
             ]
         },
         {
@@ -61,8 +61,8 @@ module.exports = {
             extraDays: [
                 { name: "25. Sep", value: "EF-1", single: 79, "double": 89 },
                 { name: "26. Sep", value: "EF+0", single: 79, "double": 89 },
-                { name: "30. Sep", value: "EF+1", single: 79, "double": 89 },
-                { name: "01. Oct", value: "EF+2", single: 79, "double": 89 },
+                { name: "29. Sep", value: "EF+1", single: 79, "double": 89 },
+                { name: "30. Sep", value: "EF+2", single: 79, "double": 89 },
             ]
         },
     ]
