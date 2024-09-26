@@ -15,8 +15,9 @@ $(function(){
 
             matchingExtraDays.find("input").prop( "disabled", false ).each( function( index, element ) {
                 var $element = $(element);
+                var currency = $element.attr("data-currency");
                 var price = $element.attr("data-" + priceMode);
-                $element.siblings(".priceText").text( " €" + parseFloat( price ).toFixed(2) );
+                $element.siblings(".priceText").text( " " + currency + parseFloat( price ).toFixed(2) );
                 $element.attr("data-price", price);
             });
         }
