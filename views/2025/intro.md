@@ -1,39 +1,28 @@
 # 41st EuroForth 2025
 REGISTERBUTTON
+## Hamburg, 12.-14. September 2025
+The 41st EuroForth conference takes place in Hamburg/Germany.
 
-## Unknown Location, 00.-01. September 2025
-The 41st EuroForth conference takes place at a hotel.
-
-![Monument](/images/2024/monument.jpg)
-
-This years EuroForth will be held in the vibrant city of Newcastle upon Tyne.
-
-## [Programme](/program)
+__Please Note:__ The Conference _will_ take place, the final details are being negotiated. As soon as that is done, this website will update.
 
 Please see the official [call for papers](http://www.euroforth.org/ef25/cfp.html) for instructions on how to submit papers.
 
-The conference will be preceded by the Forth standards meeting which starts on September, 0th.
+![StMichaelis_Hamburg](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hamburg-Michaeliskirche-Hafen.jpg/640px-Hamburg-Michaeliskirche-Hafen.jpg)
 
-Both, meeting and conference will be hosted in the [Leonardo Hotel Newcastle Quayside](https://www.leonardo-hotels.com/newcastle/leonardo-hotel-newcastle-quayside).
+[St. Michaelis Church, Image: anonymous / GNU FDL + CC BY-SA 3.0 unported](https://en.wikipedia.org/wiki/File:Hamburg-Michaeliskirche-Hafen.jpg)
 
-### Hotel 
-There are two Leonardo Hotels in Newcastle upon Tyne, make sure to go to "Quayside" [(see Google Maps)](https://maps.app.goo.gl/D6RF5Tw9rSe73Rzx8).
+The conference will be preceeded by the Forth standards meeting which starts on September, 10th.
 
-![Image: Leonardo Hotel Newcastle Quayside](/images/2024/hotel.jpg)
+Both, meeting and conference will be hosted in a building.
 
 ## Programme
 
 ### Forth standard meeting
-#### Wednesday, 25th September 14:00 - Friday, 27th September 12:00
+#### Wednesday, 10th September 14:00 - Friday, 12th September 12:00
 
 ### EuroForth conference
-#### Friday, 27th September 14:00 - Sunday, 29th September 12:00
+#### Friday, 12th September 14:00 - Sunday, 14th September 12:00
 
 ### Saturday: Excursion
 Will be organized and announced on site, partners welcome!
-
-![Tyne Bridges](/images/2024/tynebridges.jpg)
-
-### Bank Transfer
-__Important:__ The organisers are asking to please wire the amount in full and pay all fees on the senders end. If you can please select GBP as the designated currency. If not all of the money arrives please be ready to pay the remainder in cash on site.
 
