@@ -12,7 +12,7 @@ module.exports = {
     /* message to show after successful registration */
     successTemplate: function _successTemplate( { price } ) {
         return `Thank you for your registration!`
-            + `\nPlease transfer £${price} to the bank account provided in your email.`
+            + `\nPlease transfer €${price} to the bank account provided in your email.`
             //- + `\nIn the email you will find a personalized 'myEuroForth'-Link. Please bookmark it right away,`
             //- + `\nas this link allows you to participate electronically and to edit your presentation details.`
             + `\nYou will receive the email from: ${process.env.SMTP_EMAIL}.`;
@@ -39,30 +39,31 @@ module.exports = {
     },
     hotels: [
         {
-            header: "Forth standard meeting &  EuroForth conference (25.-29. September)",
+            header: "Forth standard meeting &  EuroForth conference (10.-14. September)",
             description: "Hotel with Breakfest, Meeting including Lunch",
             modes: [
-                { name: "Single room:",                     value: "Std+EuroForth+SingleRoom",    complete: 610.00 },
-                { name: "Double room:",                     value: "Std+EuroForth+DoubleRoom",    complete: 800.00 },
+                { name: "Single room:",                     value: "Std+EuroForth+SingleRoom",    complete: 1030.00 },
+                { name: "Double room:",                     value: "Std+EuroForth+DoubleRoom",    complete: 1030.00 },
             ],
             extraDays: [
-                { name: "24. Sep", value: "STD-1", single: 79, "double": 89 },
-                { name: "29. Sep", value: "EF+1",  single: 79, "double": 89 },
-                { name: "30. Sep", value: "EF+2",  single: 79, "double": 89 },
+                { name: "09. Sep", value: "STD-1", single: 175, "double": 175 },
+                { name: "15. Sep", value: "EF+1",  single: 110, "double": 110 },
+                { name: "16. Sep", value: "EF+2",  single: 110, "double": 110 },
             ]
         },
         {
-            header: "EuroForth conference only (27.-29. September)",
+            header: "EuroForth conference only (12.-14. September)",
             description: "Hotel with Breakfest, Meeting including Lunch",
             modes: [
-                { name: "Single room:",                     value: "EuroForth+SingleRoom",    complete: 320.00 },
-                { name: "Double room:",                     value: "EuroForth+DoubleRoom",    complete: 430.00 },
+                { name: "Single room:",                     value: "EuroForth+SingleRoom",    complete: 490.00 },
+                { name: "Double room:",                     value: "EuroForth+DoubleRoom",    complete: 490.00 },
             ],
             extraDays: [
-                { name: "25. Sep", value: "EF-1", single: 79, "double": 89 },
-                { name: "26. Sep", value: "EF+0", single: 79, "double": 89 },
-                { name: "29. Sep", value: "EF+1", single: 79, "double": 89 },
-                { name: "30. Sep", value: "EF+2", single: 79, "double": 89 },
+                { name: "09. Sep", value: "EF-3", single: 175, "double": 175 },
+                { name: "10. Sep", value: "EF-2", single: 175, "double": 175 },
+                { name: "11. Sep", value: "EF-1", single: 175, "double": 175 },
+                { name: "15. Sep", value: "EF+1", single: 110, "double": 110 },
+                { name: "16. Sep", value: "EF+2", single: 110, "double": 110 },
             ]
         },
     ]
