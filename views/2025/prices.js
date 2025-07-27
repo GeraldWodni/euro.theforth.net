@@ -32,7 +32,7 @@ module.exports = {
             + `\n\nRemark: ${values.remark}`;
     },
     meeting: {
-        openRegistration: "2025-07-31",
+        openRegistration: "2025-07-27",
         enablePresentation: true,
         enablePartner: true,
         start: "2025-09-12",
@@ -46,9 +46,9 @@ module.exports = {
                 { name: "Double room:",                     value: "Std+EuroForth+DoubleRoom",    complete: 1130.00 },
             ],
             extraDays: [
-                { name: "09. Sep", value: "STD-1", single: 175, "double": 175 },
-                { name: "15. Sep", value: "EF+1",  single: 110, "double": 110 },
-                { name: "16. Sep", value: "EF+2",  single: 110, "double": 110 },
+                { name: "09. Sep", value: "STD-1", single: 175, "double": 200 },
+                { name: "15. Sep", value: "EF+1",  single: 110, "double": 135 },
+                { name: "16. Sep", value: "EF+2",  single: 110, "double": 135 },
             ]
         },
         {
@@ -59,11 +59,11 @@ module.exports = {
                 { name: "Double room:",                     value: "EuroForth+DoubleRoom",    complete: 540.00 },
             ],
             extraDays: [
-                { name: "09. Sep", value: "EF-3", single: 175, "double": 175 },
-                { name: "10. Sep", value: "EF-2", single: 175, "double": 175 },
-                { name: "11. Sep", value: "EF-1", single: 175, "double": 175 },
-                { name: "15. Sep", value: "EF+1", single: 110, "double": 110 },
-                { name: "16. Sep", value: "EF+2", single: 110, "double": 110 },
+                { name: "09. Sep", value: "EF-3", single: 175, "double": 200 },
+                { name: "10. Sep", value: "EF-2", single: 175, "double": 200 },
+                { name: "11. Sep", value: "EF-1", single: 175, "double": 200 },
+                { name: "15. Sep", value: "EF+1", single: 110, "double": 135 },
+                { name: "16. Sep", value: "EF+2", single: 110, "double": 135 },
             ]
         },
     ]
