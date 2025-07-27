@@ -43,7 +43,7 @@ module.exports = {
             description: "Hotel with Breakfest, Meeting including Lunch",
             modes: [
                 { name: "Single room:",                     value: "Std+EuroForth+SingleRoom",    complete: 1030.00 },
-                { name: "Double room:",                     value: "Std+EuroForth+DoubleRoom",    complete: 1030.00 },
+                { name: "Double room:",                     value: "Std+EuroForth+DoubleRoom",    complete: 1130.00 },
             ],
             extraDays: [
                 { name: "09. Sep", value: "STD-1", single: 175, "double": 175 },
@@ -56,7 +56,7 @@ module.exports = {
             description: "Hotel with Breakfest, Meeting including Lunch",
             modes: [
                 { name: "Single room:",                     value: "EuroForth+SingleRoom",    complete: 490.00 },
-                { name: "Double room:",                     value: "EuroForth+DoubleRoom",    complete: 490.00 },
+                { name: "Double room:",                     value: "EuroForth+DoubleRoom",    complete: 540.00 },
             ],
             extraDays: [
                 { name: "09. Sep", value: "EF-3", single: 175, "double": 175 },
