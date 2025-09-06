@@ -66,5 +66,17 @@ module.exports = {
                 { name: "16. Sep", value: "EF+2", single: 110, "double": 135 },
             ]
         },
+        {
+            header: "EuroForth Day Guest only (13. September)",
+            description: "Meeting including Lunch (please select days below)",
+            modes: [
+                { name: "Attendee:",                     value: "EuroForth+DayOnly",    complete: 0.00 },
+            ],
+            extraDays: [
+                { name: "12. Sep", value: "EF+Fri", single: 75, "double": 75 },
+                { name: "13. Sep", value: "EF+Sat", single: 75, "double": 75 },
+                { name: "14. Sep", value: "EF+Sun", single: 75, "double": 75 },
+            ]
+        },
     ]
 }
