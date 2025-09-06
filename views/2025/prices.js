@@ -67,8 +67,8 @@ module.exports = {
             ]
         },
         {
-            header: "EuroForth Day Guest only (13. September)",
-            description: "Meeting including Lunch (please select days below)",
+            header: "EuroForth conference day guest only (please select days below)",
+            description: "Meeting including Lunch",
             modes: [
                 { name: "Attendee:",                     value: "EuroForth+DayOnly",    complete: 0.00 },
             ],
