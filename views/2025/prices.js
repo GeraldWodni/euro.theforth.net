@@ -32,10 +32,10 @@ module.exports = {
             + `\n\nRemark: ${values.remark}`;
     },
     meeting: {
-        openRegistration: "2025-07-27",
+        openRegistration: "2025-10-27",
         enablePresentation: true,
         enablePartner: true,
-        start: "2025-09-08",
+        start: "2025-09-11",
     },
     hotels: [
         {
