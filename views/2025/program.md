@@ -7,28 +7,28 @@ Times are converted to your local timezone indicated by a blue background, if yo
 Otherwise `UTC(+0)` will be displayed and you have to calculate the offset yourself.
 
 #### Wednesday, 10th September 2025 UTC(+0)
-- 13:00 Session 1
-- 15:00 Coffee Break
-- 15:15 Session 2
+- 12:30 Session 1
+- 14:30 Coffee Break
+- 15:00 Session 2
 - 17:00 End of main sessions
 - Workshops
 
 #### Thursday, 11th September 2025 UTC(+0)
-- 08:30 Session 4
-- 09:30 Coffee Break
-- 09:45 Session 5
-- 11:15 Lunch
-- 12:30 Session 6
-- 14:45 Coffee Break
-- 15:00 Session 7
+- 07:30 Session 3
+- 09:00 Coffee Break
+- 09:15 Session 4
+- 11:00 Lunch
+- 12:30 Session 5
+- 14:30 Coffee Break
+- 14:45 Session 6
 - 17:00 End of main sessions
 - Workshops
 
 #### Friday, 12th September 2025 UTC(+0)
-- 08:30 Session 9
-- 09:30 Coffee Break
-- 09:45 Session 10
-- 11:00 End of Standards Meeting
+- 07:30 Session 7
+- 09:00 Coffee Break
+- 09:15 Session 8
+- 11:00 Lunch
 
 
 ### EuroForth 2025 conference
